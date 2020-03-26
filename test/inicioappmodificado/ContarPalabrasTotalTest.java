@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author Alberto
  */
-public class ContarCaracteresTotalTest {
+public class ContarPalabrasTotalTest {
     
-    public ContarCaracteresTotalTest() {
+    public ContarPalabrasTotalTest() {
     }
     
     @BeforeClass
@@ -36,17 +36,17 @@ public class ContarCaracteresTotalTest {
     @After
     public void tearDown() {
     }
-    
+
     /**
-     * Test of contarCaracteresTotal method, of class ContarCaracteresTotal.
+     * Test of contarPalabrasTotal method, of class ContarPalabrasTotal.
      */
     @Test
-    public void testContarCaracteresTotal() {
-        System.out.println("contarCaracteresTotal");
+    public void testContarPalabrasTotal() {
+        System.out.println("contarPalabrasTotal");
         String cadena = "";
-        ContarCaracteresTotal instance = new ContarCaracteresTotal();
+        ContarPalabrasTotal instance = new ContarPalabrasTotal();
         int expResult = 0;
-        int result = instance.contarCaracteresTotal(cadena);
+        int result = instance.contarPalabrasTotal(cadena);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
