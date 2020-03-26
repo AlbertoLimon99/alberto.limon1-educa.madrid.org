@@ -8,6 +8,8 @@ package inicioappmodificado;
 /**
  *
  * @author Alberto
+ * Método ContarPalabrasTotal: Cuenta las palabras totales que hay en el texto introducido. Si en el texto hay un espacio de texto y
+ * después hay otra palabra, detecta que es una separación entre ellas, y suma 1 al contador de palabras.
  */
 public class ContarPalabrasTotal extends Atributos{
      public int contarPalabrasTotal(String cadena){
