@@ -4,7 +4,7 @@ package inicioappmodificado;
 /**
  *
  * @author Alberto
- * Método ContarPalabrasTotal: Cuenta los caracteres totales que hay en el texto introducido. No cuenta los espacios en blanco.
+ * Método ContarCaracteresTotal: Cuenta los caracteres totales que hay en el texto introducido. No cuenta los espacios en blanco.
  * Cuando detecta un espacio en blanco, no suma al contador de caracteres totales.
  */
 public class ContarCaracteresTotal extends Atributos {

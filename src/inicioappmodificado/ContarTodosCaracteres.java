@@ -5,7 +5,11 @@
  */
 package inicioappmodificado;
 
-
+/**
+ *
+ * @author Alberto
+ * Método ContarTodosCaracteres: este método visualiza las letras que hay en el texto, y las veces que se repiten
+ */
 public class ContarTodosCaracteres extends Atributos{
     public int[] contarTodosCaracteres(String cadena){
             for (int i = 0;i<cadena.length();i++) {
