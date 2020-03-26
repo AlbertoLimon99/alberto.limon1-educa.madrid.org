@@ -11,4 +11,6 @@ public class ContarCaracteresTotal extends Atributos {
             }
             return getNumCaracteresSinBlancos();
         }
+    
+    
 }
